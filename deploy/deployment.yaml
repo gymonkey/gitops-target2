@@ -1,0 +1,19 @@
+apiVersion: apps/v1
+kind: Deployment
+metadata:
+  name: testgitops2-deployment
+  labels:
+    app: testhello2
+spec:
+  replicas: 1
+  selector:
+    matchLabels:
+      app: testhella2o
+  template:
+    metadata:
+      labels:
+        app: testhello2
+    spec:
+      containers:
+      - name: testhello2
+        image: nginx:latest 
