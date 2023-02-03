@@ -8,7 +8,7 @@ spec:
   replicas: 1
   selector:
     matchLabels:
-      app: testhella2o
+      app: testhellao2
   template:
     metadata:
       labels:
